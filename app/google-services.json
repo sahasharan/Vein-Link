@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "125955755455",
+    "project_id": "veinlink-31406",
+    "storage_bucket": "veinlink-31406.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:125955755455:android:b58b2d902f9de4b44b250a",
+        "android_client_info": {
+          "package_name": "com.example.veinlink"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "125955755455-mhdhbhl05cidagkhh62qi0rvgrqvmgdb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAm9zSeRbe_q2Fl7-_cYC1ZflPA9Mpsp-E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "125955755455-mhdhbhl05cidagkhh62qi0rvgrqvmgdb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

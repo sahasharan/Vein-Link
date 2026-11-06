@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:padding="8dp"
+    android:background="#2C2C2C"
+    android:layout_marginBottom="2dp">
+
+    <TextView
+        android:id="@+id/donorName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.2" 
+        android:text="Donor Name"
+        android:textSize="14sp"
+        android:textColor="@android:color/white"
+        android:paddingEnd="8dp"/>
+
+    <TextView
+        android:id="@+id/donorBlood"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.8" 
+        android:text="Blood: AB+"
+        android:textSize="14sp"
+        android:textColor="@android:color/white"
+        android:paddingEnd="8dp"/>
+
+    <Button
+        android:id="@+id/buttonSendRequest"
+        android:layout_width="0dp"
+        android:layout_height="40dp" 
+        android:layout_weight="1"
+        android:text="Request"
+        android:textSize="12sp"
+        android:minHeight="0dp"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"
+        android:textColor="@android:color/white" />
+
+    <!-- The donorLocation TextView and heartIconLayout are removed for this table format -->
+    <!-- If you need location, it could be another column or part of the donorName text -->
+
+</LinearLayout>
